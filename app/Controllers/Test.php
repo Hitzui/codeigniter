@@ -9,4 +9,9 @@ class Test extends BaseController
     {
         return view("test");
     }
+
+    public function getEmpleado()
+    {
+        return "Empleado de ejemplo";
+    }
 }
